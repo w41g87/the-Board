@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="Cache-control" content="public"/>
+        <title>&lt; The Pyramid/Other &gt;</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <video id="board" type="video/webm" muted poster="video/poster/poster_null.png" hidden>Video not supported</video>
+        <video id="hedron" src="video/hedron.webm" autoplay muted loop hidden>Video not supported</video>
+        <video id="hiss" src="video/hiss_overlay.webm" type="video/webm" muted loop hidden>Video not supported</video>
+        <video id="hiss-boil" src="video/hiss_boiling.webm" type="video/webm" muted loop hidden></video>
+        <canvas id="redraw">HTML5 not supported</canvas>
+        <canvas id="redraw-hiss" hidden>HTML5 not supported</canvas>
+        <audio id="ambient1" src="audio/hotline_loop.wav" preload="auto">Audio not supported</audio>
+        <audio id="ambient2" src="audio/hotline_loop.wav" preload="auto">Audio not supported</audio>
+        <audio id="ring" src="audio/ring.wav">Audio not supported</audio>
+        <audio id="murmur">Audio not supported</audio>
+
+        <!-- Overlay for the board transmissions -->
+        <div id="transmission" hidden>
+            <h1 id="speaker" class="red-text"></h1>
+            <h1 id="dialogue"></h1>
+        </div>
+
+        <script src="script/script.js"></script>
+    </body>
+    
+</html>

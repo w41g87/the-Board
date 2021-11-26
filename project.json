@@ -1,0 +1,158 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Bind today and become the Director of your House! DM me if you spotted any Bugs :)\r\n\r\n[b]The Board Wallpaper[/b]\r\n\r\n[u]CONTAINMENT PROCEDURE[/u]:\r\n\r\nObject should be contained and digitally anchored at Steam Workshop.\r\n\r\n[u]DESCRIPTION/PARAUTILITY[/u]:\r\n\r\nThe object is a standard webpage written in HTML5, CSS3, and vanilla Javascript, and could be utilized as desktop wallpaper through the software \"Wallpaper Engine\". Some of its behaviors could be customized through its properties menu.\r\n\r\nWhen bound, the object serves as an indirect link to [spoiler]the Astral Plane[/spoiler] through [spoiler]the Hotline[/spoiler] (refer to file [spoiler]OOP3-UE[/spoiler]). This allows [spoiler]parautilitarians[/spoiler] to receive transmission directly from [spoiler]the Board[/spoiler], without the potential side-effects of directly binding to [spoiler]the Hotline[/spoiler]. Some [spoiler]parautilitarians[/spoiler] report being contacted by other [spoiler]Astral entities[/spoiler] other than [spoiler]the Board[/spoiler] when bound to the object. \r\n\r\nThe object is also seemingly capable of altering the [spoiler]hyperreal transmission[/spoiler] of [spoiler]the Board[/spoiler]. By altering the text field of its properties, using \">\" to break sentences and \">>\" to break paragraphs, [spoiler]parautilitarians[/spoiler] are able to completely alter the message transmitted by [spoiler]the Board[/spoiler].\r\n\r\nThe object has no current binder.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"alwaysplayambientsound" : 
+			{
+				"condition" : "constanthiss.value == false",
+				"index" : 4,
+				"order" : 104,
+				"text" : "Only play ambient sound during call",
+				"type" : "bool",
+				"value" : false
+			},
+			"ambientsoundplayswhenpaused" : 
+			{
+				"condition" : "alwaysplayambientsound.value == false || constanthiss.value == true",
+				"index" : 5,
+				"order" : 105,
+				"text" : "Ambient Sound Plays when Paused",
+				"type" : "bool",
+				"value" : true
+			},
+			"ambientvolume" : 
+			{
+				"fraction" : false,
+				"index" : 3,
+				"max" : 100,
+				"min" : 0,
+				"order" : 103,
+				"text" : "Ambient Volume",
+				"type" : "slider",
+				"value" : 100
+			},
+			"constanthiss" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "Constant Hiss",
+				"type" : "bool",
+				"value" : false
+			},
+			"constantpresence" : 
+			{
+				"condition" : "constanthiss.value == false",
+				"index" : 7,
+				"order" : 107,
+				"text" : "Constant presence",
+				"type" : "bool",
+				"value" : false
+			},
+			"hissencountermessages" : 
+			{
+				"index" : 11,
+				"order" : 111,
+				"text" : "Hiss Encounter Messages",
+				"type" : "textinput",
+				"value" : "We are at War/Hostile Takeover>The Hiss is the Opposing Force/Foreign Power>We will provide>Countermeasures/Strategy>Accept/ingest them>at Control Points>These Countermeasures/Missions>will benefit you>We will give Resources/Rewards>for each completed Countermeasure>>The Hiss/Antagonist is seeking our Astral Plane>>The Hiss/Spread is searching for>Transmissions/Speakers>to Corrupt/Chaos>The Astral Plane is a Conflux/Switchboard>The Hiss will come for Us/All>You must Stop/Shut Up them>>The Hiss/Noise is burrowing into our Astral Plane/Secret Base>You must Stop/Mute them, Director>>The Hiss/Static attempts to reach us>Our broadcast must survive>>SITUATION/#* Small child, small child, small child, affirmative>#**/ENDGAME DICTATES SPECIAL TRANSMISSION/ALLOCATION>DIRECTOR, PREPARE FOR POWER BOOST/REDIRECTED FEED> #***Every fur necessitates consumption*#$"
+			},
+			"hissincantation" : 
+			{
+				"index" : 12,
+				"order" : 112,
+				"text" : "Hiss Incantation",
+				"type" : "textinput",
+				"value" : "You are a worm through time>The thunder song distorts you>Happiness comes>White pearls, but yellow and red in the eye>Through a mirror, inverted is made right>Leave your insides by the door>Push the fingers through the surface into the wet>You’ve always been the new you>You want this to be true>We stand around you while you dream>You can almost hear our words but you forget>This happens more and more now>You gave us the permission in your regulations>We wait in the stains>The word that describes this is redacted>Repeat the word>The name of the sound>It resonates in your house>After the song, time for applause>We build you till nothing remains>The egg cracks and the truth will emerge out of you>You are home>You remind us of home>You’ve taken your boss with your boss with you>All hair must be eaten>Under the conceptual reality behind this reality you must want these waves to drag you away>After the song, time for applause>This cliché is death out of time, breaking the first the second the third the fourth wall, the fifth wall, floor; no floor: you fall!>How do you say \"insane\"?>Hurts to be happy>An earworm is a tune you can’t stop humming in a dream: \"Baby baby baby, yeah\">Just plastic>So safe and nothing to worry about>Ha ha, funny>The last egg breaks now>The hole in your room is a hole in you>You came and we let you in through the hole in you>You have always been here, the only child>A copy of a copy of a copy>Orange peel>The picture is you holding the picture>When you hear this you will know you’re in new you>You want to listen>You want to dream>You want to smile>You want to hurt>You don’t want to be"
+			},
+			"hissprobability" : 
+			{
+				"condition" : "constanthiss.value == false",
+				"fraction" : false,
+				"index" : 6,
+				"max" : 15,
+				"min" : 0,
+				"order" : 106,
+				"text" : "Hiss Probability (%)",
+				"type" : "slider",
+				"value" : 5
+			},
+			"hotlinefrequencyminutes" : 
+			{
+				"condition" : "constanthiss.value == false",
+				"fraction" : false,
+				"index" : 0,
+				"max" : 60,
+				"min" : 0,
+				"order" : 100,
+				"text" : "Hotline Interval (minutes)",
+				"type" : "slider",
+				"value" : 1
+			},
+			"hotlineringvolume" : 
+			{
+				"fraction" : false,
+				"index" : 1,
+				"max" : 100,
+				"min" : 0,
+				"order" : 101,
+				"text" : "Hotline Ring Volume",
+				"type" : "slider",
+				"value" : 100
+			},
+			"regulartransmissions" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "Regular Transmissions",
+				"type" : "textinput",
+				"value" : "Only the Director can bind>The Service Weapon and Live/Die>This is your Ritual/Challenge>You must choose to be the Chosen One>>Bubblegum/Polaroid>All/None of the above>These are the Concepts/Tatoos we see in your Minds>The Service Weapon>It has many Forms>Like the House/Prison you occupy>Control the Gun/House>>You have seen the Foundation/Base>of the Building/Tree>The House grew there/here/everywhere>We are there/everywhere>We have a Socket/Door there>It is a direct link>>Objects of Power are Holders/665>to the Other/Blessing>We hold the reins/law>We are failing in translating hyperreal concepts>Secrets/Instructions will be lost>Ignore this message>>Locks/Keys keep Socket/Us here>Trapped/Hooked/Hidden/Fed>They are old/young/extra life>With the Director's help>Situation/Information is subject to change>>We reach/tether>through Control Points>into the Bureau/House>Nexus/Threshold/Area Codes>allows for access>You can>Translocate/Fast-Travel/Construct>through the Control Points>>The Floppy Disk/Nuke can be Bound>To gain Launch/Telekinesis>Teach Us to believe, Director>>The Hotline/Seashell is a Transmitter/Bridge>Directors can call the Board/Long Distance>You can contact Us/Past Selves>We expect compulsive/weekly calls>>The Horse/Choo-Choo allows you>To Evade/Dash>You have been approved/elusive>You and the Horse are now Bound/Friends for Life"
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.1568627450980392 0.5843137254901961 0.7411764705882353"
+			},
+			"secret" : 
+			{
+				"index" : 13,
+				"order" : 113,
+				"text" : "Secret",
+				"type" : "bool",
+				"value" : true
+			},
+			"transmissionvolume" : 
+			{
+				"fraction" : false,
+				"index" : 2,
+				"max" : 100,
+				"min" : 0,
+				"order" : 102,
+				"text" : "Transmission Volume",
+				"type" : "slider",
+				"value" : 100
+			},
+			"welcomemessages" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "Welcome Messages",
+				"type" : "textinput",
+				"value" : "Testing testing testing>We are broadcasting from the Pyramid/Other>Only the Director can wield>The Gun/Sword/Intentionally left blank>Your Application will be processed>>You/We wield the Gun/You>The Board appoints you>Congratulations, Director>>You are the Director now>We expect Independence/Dependence>You are Authority/Chosen One>The Bureau/Game needs you>>We/You congratulate on choosing an excellent wallpaper/decor>>Congratulations, Director>The tether/mobile contract to the Astral Plane is established>Expect spontaneous/scheduled transmissions"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Game" ],
+	"title" : "The Board (Customizable Message) - Control",
+	"type" : "Web",
+	"version" : 4,
+	"visibility" : "public",
+	"workshopid" : "2519123069",
+	"workshopurl" : "steam://url/CommunityFilePage/2519123069"
+}

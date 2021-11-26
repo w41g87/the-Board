@@ -1,0 +1,90 @@
+canvas {
+    object-fit: cover;
+    position: fixed;
+    overflow: hidden;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0px 0px;
+    font-size: 1.2vw;
+}
+
+#transmission {
+    z-index: 5;
+    position: fixed;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: 0.3vw 1vw;
+    font-family: 'control', sans-serif;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#hedron {
+    z-index: 4;
+    mix-blend-mode: screen;
+    position: fixed;
+    width: 20vw;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(2);
+}
+
+#hiss {
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hiss-boil {
+    z-index: 3;
+    mix-blend-mode: screen;
+    position: fixed;
+    width: 30vw;
+    height: auto;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#redraw {
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+}
+
+#redraw-hiss {
+    mix-blend-mode: multiply;
+    z-index: 1;
+    left: 50%;
+    top: 0%;
+    width: 100vw;
+    height: auto;
+    transform: translate(-50%, 0%);
+}
+
+#speaker {
+    margin-right: 0.5vw;
+}
+
+.red-text {
+    color: #DE0005;
+}
+
+
+@font-face {
+    font-family: 'control';
+    src: url('ITCAvantGardeStdBold.otf');
+}
